@@ -6,11 +6,11 @@ class Startseite extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFFFC0CB), // Hintergrundfarbe auf Rosa-Pink setzen
+      backgroundColor: Color(0xFFFFC0CB), 
       appBar: AppBar(
         title: const Text('Willkommen!'),
         centerTitle: true,
-        backgroundColor: Color(0xFF9C1B6C), // Dunkles Pink für die AppBar
+        backgroundColor: Color(0xFF9C1B6C), 
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -23,7 +23,7 @@ class Startseite extends StatelessWidget {
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF9C1B6C), // Dunkles Pink für den Text
+                color: Color(0xFF9C1B6C),
               ),
               textAlign: TextAlign.center,
             ),
@@ -34,7 +34,7 @@ class Startseite extends StatelessWidget {
               'Viel Spaß beim Entdecken!',
               style: TextStyle(
                 fontSize: 18,
-                color: Color(0xFF9C1B6C), // Dunkles Pink für den Text
+                color: Color(0xFF9C1B6C), 
               ),
               textAlign: TextAlign.center,
             ),

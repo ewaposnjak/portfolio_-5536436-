@@ -6,14 +6,14 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFFFE4EC), // Helles Rosa
+      backgroundColor: const Color(0xFFFFE4EC), 
       appBar: AppBar(
         title: const Text(
           'Willkommen!',
-          style: TextStyle(color: Color(0xFFFF1493)), // Hot Pink
+          style: TextStyle(color: Color(0xFFFF1493)), 
         ),
         centerTitle: true,
-        backgroundColor: const Color(0xFFFFE4EC), // Gleiche Farbe wie Hintergrund
+        backgroundColor: const Color(0xFFFFE4EC), 
         elevation: 0,
         iconTheme: const IconThemeData(color: Color(0xFFFF1493)),
       ),
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFFFF1493), // Hot Pink
+                color: Color(0xFFFF1493), 
               ),
               textAlign: TextAlign.center,
             ),
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
               'Viel Spaß beim Entdecken!',
               style: TextStyle(
                 fontSize: 18,
-                color: Color(0xFFFF1493), // Hot Pink
+                color: Color(0xFFFF1493), 
               ),
               textAlign: TextAlign.center,
             ),

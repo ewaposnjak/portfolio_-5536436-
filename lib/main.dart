@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'startseite.dart'; // Import der Startseite
+import 'pages/home_page.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +13,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Willkommen',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
       ),
-      home: const Startseite(), // Zeigt die Startseite an
+      home: const HomePage(), 
     );
   }
 }
+
 
