@@ -1,74 +1,42 @@
 # portfolio_5536436
 
 Portfolio-App
-Projektbeschreibung
-Dies ist eine Flutter-App, die als Portfolio dient. Sie zeigt Informationen über die Entwicklerin, ihre Projekte und Interessen. Das Projekt verwendet Flutter und Dart, um eine ansprechende, mobile Benutzeroberfläche zu erstellen.
+Dies ist meine Portfolio-App, die ich mit Flutter erstellt habe. Sie zeigt ein bisschen was über mich, meine Projekte und was mich interessiert. Flutter und Dart sind die Technologien, mit denen ich die App gebaut habe, um eine ansprechende und einfache Benutzeroberfläche zu erstellen.
 
 Flutter-Version
-Dieses Projekt wurde mit Flutter 3.29.3 entwickelt. Stelle sicher, dass du diese Version oder eine kompatible Version von Flutter verwendest.
+Für dieses Projekt habe ich Flutter in der Version 3.29.3 verwendet.
 
 Wie man das Projekt startet
-Voraussetzungen
-Flutter: Stelle sicher, dass du Flutter auf deinem System installiert hast. Du kannst die Installation von Flutter unter flutter.dev nachlesen.
+Was du brauchst:
+Flutter installieren: Stell sicher, dass du Flutter auf deinem Computer installiert hast. Du findest die Installationsanleitung auf der Flutter-Webseite.
 
-Abhängigkeiten installieren: Öffne das Terminal in deinem Projektverzeichnis und führe folgenden Befehl aus, um alle Abhängigkeiten zu installieren:
+Abhängigkeiten installieren: Gehe in das Projektverzeichnis und öffne das Terminal (oder die Konsole). Führe dann den folgenden Befehl aus, um alle benötigten Abhängigkeiten zu installieren:
 
 bash
 Kopieren
 Bearbeiten
 flutter pub get
-App starten: Um das Projekt auf deinem Emulator oder verbundenen Gerät zu starten, führe den folgenden Befehl aus:
+App starten: Sobald alles installiert ist, kannst du das Projekt auf deinem Emulator oder verbundenen Gerät starten. Benutze dazu:
 
 bash
 Kopieren
 Bearbeiten
 flutter run
-Wenn du das Projekt auf einem spezifischen Gerät starten möchtest, verwende:
+Falls du ein spezielles Gerät verwenden möchtest, kannst du es so angeben:
 
 bash
 Kopieren
 Bearbeiten
-flutter run -d <device_name>
-(Ersetze <device_name> durch den Namen deines Geräts)
+flutter run -d <Gerätename>
+(Ersetze <Gerätename> mit dem Namen deines Geräts.)
 
 Git-Branching-Strategie
-In diesem Projekt verwenden wir eine Feature-Branch-Strategie:
+In diesem Projekt arbeiten wir mit einer sogenannten Feature-Branch-Strategie:
 
-Main-Master Branch:
+Main-Master Branch: Der main oder master Branch ist immer die stabilste Version der App.
 
-Der main oder master-Branch enthält die stabilste Version der Anwendung.
+Feature-Branches: Wenn wir an neuen Features arbeiten, erstellen wir dafür eigene Branches, z.B. feature/startseite. Der Name des Branches ist so gewählt, dass klar wird, was wir gerade hinzufügen oder ändern.
 
-Alle Änderungen werden über Pull-Requests (PR) vom Feature-Branch in den main-Branch gemerged.
+Jede Änderung wird zuerst im Feature-Branch gemacht. Wenn das Feature fertig ist, kommt es über einen sogenannten Pull Request (PR) zurück in den main Branch, nachdem es getestet und überprüft wurde.
 
-Feature Branches:
-
-Jede neue Funktion oder jedes neue Feature wird in einem eigenen Branch entwickelt, z.B. feature/startseite.
-
-Der Name des Feature-Branches folgt dem Format feature/<feature-name>.
-
-Entwicklung:
-
-Alle Änderungen werden im jeweiligen Feature-Branch vorgenommen.
-
-Wenn das Feature fertig ist, wird ein Pull Request (PR) erstellt, um den Feature-Branch in main zu mergen.
-
-Merge in den main-Branch:
-
-Nach Review und Tests wird der Feature-Branch in den main-Branch gemerged.
-
-Der main-Branch sollte jederzeit eine lauffähige und getestete Version der App enthalten.
-
-Diese README-Struktur gibt eine klare Übersicht über das Projekt, wie man es startet und welche Git-Strategie angewendet wird. Es ist eine einfache, aber effektive Art und Weise, das Projekt für andere Entwickler zugänglich zu machen und zu erklären.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Merge in main: Der main Branch enthält immer die neueste stabile Version der App. Es ist wichtig, dass der main Branch jederzeit funktionsfähig ist.
