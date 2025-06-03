@@ -3,6 +3,8 @@
 Portfolio-App
 Dies ist meine Portfolio-App, die ich mit Flutter erstellt habe. Sie zeigt ein bisschen was über mich, meine Projekte und was mich interessiert. Flutter und Dart sind die Technologien, mit denen ich die App gebaut habe, um eine ansprechende und einfache Benutzeroberfläche zu erstellen.
 
+Meine email: ewa.posnjak@mnd.thm.de
+
 Flutter-Version
 Für dieses Projekt habe ich Flutter in der Version 3.29.3 verwendet.
 
